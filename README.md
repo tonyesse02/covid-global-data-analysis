@@ -88,18 +88,52 @@ Filtering and aggregation are performed directly within the notebook.
 
 ---
 
+---
+
 ## 📌 Key Insights
 
-- COVID-19 cases peaked globally in 2022.
-- ICU occupancy trends significantly decreased in 2023 compared to 2022.
-- Continental distribution shows Asia and Europe with the highest cumulative cases.
-- Italy experienced strong volatility in new cases during early 2022, followed by stabilization.
+- Global COVID-19 cases reached their peak in 2022, marking the highest recorded wave during the pandemic period.
+- ICU occupancy trends significantly decreased in 2023 compared to 2022, indicating reduced pressure on healthcare systems.
+- Continental distribution analysis shows Asia and Europe with the highest cumulative case counts.
+- Italy experienced strong volatility in new cases during early 2022, followed by progressive stabilization.
+- Post-2022 data suggests a structural reduction in severe cases compared to peak pandemic years.
 
-The data suggests a structural reduction in severe cases post-2022 compared to peak pandemic years.
+Overall, the analysis highlights the transition from emergency pandemic management to a more controlled epidemiological phase.
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository
-2. Install dependencies:
+1. Clone the repository:
+https://github.com/your-username/covid-global-data-analysis.git
+
+2. Navigate into the project folder:
+cd covid-global-data-analysis
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Launch Jupyter Notebook:
+jupyter notebook notebooks/covid_global_analysis.ipynb
+
+---
+
+## 📎 Project Structure
+covid-global-data-analysis/
+│
+├── data/ # Placeholder for potential local datasets
+├── notebooks/ # Main analysis notebook
+├── screenshots/ # Generated visual outputs
+├── src/ # Future modular Python scripts
+├── requirements.txt
+└── README.md
+
+---
+
+## 👤 Author
+
+Antonio Spagnuolo  
+Junior Data Analyst  
+Python | Pandas | Data Visualization
+
+
