@@ -28,6 +28,17 @@ Data is dynamically downloaded from the official Our World in Data repository.
 
 ---
 
+## 🧠 Technical Approach
+
+- Data extraction directly from OWID GitHub repository (Our World in Data)
+- Data filtering by country and continent
+- Time-series aggregation (2020–2025)
+- ICU and hospitalization comparative analysis
+- Year-over-year case evolution analysis
+- Cross-country distribution analysis
+
+---
+
 ## 📊 Data Source
 
 Dataset used:
