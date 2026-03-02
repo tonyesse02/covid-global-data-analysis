@@ -88,6 +88,17 @@ Filtering and aggregation are performed directly within the notebook.
 
 ---
 
+## 📌 Key Insights
+
+- COVID-19 cases peaked globally in 2022.
+- ICU occupancy trends significantly decreased in 2023 compared to 2022.
+- Continental distribution shows Asia and Europe with the highest cumulative cases.
+- Italy experienced strong volatility in new cases during early 2022, followed by stabilization.
+
+The data suggests a structural reduction in severe cases post-2022 compared to peak pandemic years.
+
+---
+
 ## 🚀 How to Run
 
 1. Clone the repository
