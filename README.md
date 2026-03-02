@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes global COVID-19 data using Python and real-time open datasets.
+This project analyzes global COVID-19 data using Python and real-time open datasets from Our World in Data (OWID).
 
 The analysis includes:
 
@@ -13,7 +13,7 @@ The analysis includes:
 - Total case growth analysis
 - Continental case distribution
 
-Data is dynamically downloaded from the official Our World in Data repository.
+The dataset is dynamically downloaded during execution.
 
 ---
 
@@ -30,23 +30,20 @@ Data is dynamically downloaded from the official Our World in Data repository.
 
 ## 🧠 Technical Approach
 
-- Data extraction directly from OWID GitHub repository (Our World in Data)
-- Data filtering by country and continent
-- Time-series aggregation (2020–2025)
-- ICU and hospitalization comparative analysis
-- Year-over-year case evolution analysis
-- Cross-country distribution analysis
+- Direct data extraction from OWID GitHub repository
+- Data cleaning and preprocessing
+- Date parsing and time-series handling
+- Aggregation by year and continent
+- Cross-country ICU comparison
+- Visualization of trends and cumulative metrics
 
 ---
 
 ## 📊 Data Source
 
-Dataset used:
+Official dataset:
 
 https://raw.githubusercontent.com/owid/covid-19-data/refs/heads/master/public/data/owid-covid-data.csv
-
-The dataset contains global COVID-19 statistics.  
-Filtering and aggregation are performed directly within the notebook.
 
 ---
 
@@ -66,65 +63,39 @@ Filtering and aggregation are performed directly within the notebook.
 
 ---
 
-## 🔎 Analysis Performed
-
-- Data filtering by selected countries
-- Date parsing and preprocessing
-- Aggregation by year
-- ICU comparison between European countries
-- Hospitalization trend evaluation
-- Continent-level total case aggregation
-- Time-series visualization for Italy (2022)
-
----
-
-## 📸 Sample Visualizations
-
-![Hospitalized](screenshots/hospitalized_2021.jpeg)
-![ICU Comparison](screenshots/icu_comparison_2022_2023.jpeg)
-![Italy New Cases](screenshots/italy_new_cases_2022.jpeg)
-![Total Cases Evolution](screenshots/italy_total_cases_evolution.jpeg)
-![Cases by Continent](screenshots/cases_by_continent.jpeg)
-
----
-
----
-
 ## 📌 Key Insights
 
-- Global COVID-19 cases reached their peak in 2022, marking the highest recorded wave during the pandemic period.
-- ICU occupancy trends significantly decreased in 2023 compared to 2022, indicating reduced pressure on healthcare systems.
-- Continental distribution analysis shows Asia and Europe with the highest cumulative case counts.
-- Italy experienced strong volatility in new cases during early 2022, followed by progressive stabilization.
-- Post-2022 data suggests a structural reduction in severe cases compared to peak pandemic years.
-
-Overall, the analysis highlights the transition from emergency pandemic management to a more controlled epidemiological phase.
+- Global COVID-19 cases peaked in 2022.
+- ICU occupancy significantly decreased in 2023 compared to 2022.
+- Asia and Europe recorded the highest cumulative case counts.
+- Italy experienced high volatility in early 2022, followed by stabilization.
+- Post-2022 data indicates reduced severe case pressure on healthcare systems.
 
 ---
 
-## 🚀 How to Run
+### Installation
 
-1. Clone the repository:
-https://github.com/your-username/covid-global-data-analysis.git
+1. **Clone the repository**
+```bash
+   git clone https://github.com/tonyesse02/covid-global-data-analysis.git
+   cd covid-global-data-analysis
+```
 
-2. Navigate into the project folder:
-cd covid-global-data-analysis
+2. **Install dependencies**
+```bash
+   pip install -r requirements.txt
+```
 
-3. Install dependencies:
-pip install -r requirements.txt
+3. **Launch the notebook**
+```bash
+   jupyter notebook notebooks/covid_global_analysis.ipynb
+```
 
-4. Launch Jupyter Notebook:
-jupyter notebook notebooks/covid_global_analysis.ipynb
-
----
-
-## 📎 Project Structure
 covid-global-data-analysis/
-│
-├── data/ # Placeholder for potential local datasets
-├── notebooks/ # Main analysis notebook
-├── screenshots/ # Generated visual outputs
-├── src/ # Future modular Python scripts
+├── notebooks/
+│   └── covid_global_analysis.ipynb
+├── screenshots/
+├── data/
 ├── requirements.txt
 └── README.md
 
@@ -132,8 +103,9 @@ covid-global-data-analysis/
 
 ## 👤 Author
 
-Antonio Spagnuolo  
-Junior Data Analyst  
+Antonio Spagnuolo
+Junior Data Analyst
 Python | Pandas | Data Visualization
+
 
 
