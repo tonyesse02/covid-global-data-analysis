@@ -50,6 +50,22 @@ Filtering and aggregation are performed directly within the notebook.
 
 ---
 
+## 📊 Visual Examples
+
+### Italy – New Cases Trend (2022)
+![Italy New Cases](screenshots/italy_new_cases_2022.jpeg)
+
+### Italy – Total Cases Evolution
+![Italy Total Cases](screenshots/italy_total_cases_evolution.jpeg)
+
+### ICU Comparison (2022–2023)
+![ICU Comparison](screenshots/icu_comparison_2022_2023.jpeg)
+
+### Global Cases by Continent
+![Cases by Continent](screenshots/cases_by_continent.jpeg)
+
+---
+
 ## 🔎 Analysis Performed
 
 - Data filtering by selected countries
